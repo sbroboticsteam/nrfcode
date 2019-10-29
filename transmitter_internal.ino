@@ -2,7 +2,7 @@
 #include "RF24.h"
 #define CEpin 7                               //The CE pin (pin 3) of the nRF24L01 can be connected to any digital pin.
 #define CSpin 8                               //The CS pin (pin 4) of the nRF24L01 can be connected to any digital pin.
-#define SizeOfMessage 27                      //The size of the message to be sent.
+#define SizeOfMessage 26                      //The size of the message to be sent.
 #define Channel 115                           //The channel has to be the same as that of the receiver. 0-125.
 #define PALevel RF24_PA_MAX                   //The power amplifier level. Should work fine, but should check that if something isn't working.
 #define DataRate RF24_250KBPS                 //The data rate. Only change it if you're doing something really crazy. Receiver has to have the same data rate.
